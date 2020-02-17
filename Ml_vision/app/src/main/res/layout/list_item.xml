@@ -1,0 +1,51 @@
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:backgroundTint="#263238"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        >
+        <ImageView
+            android:id="@+id/item_image"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/next"
+            android:layout_gravity="center_vertical"
+            android:scaleType="fitXY"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/attr"
+                android:layout_weight="1"
+                android:textColor="@color/colorPrimary"
+                android:textSize="12sp"
+                android:paddingStart="20dp"
+                android:gravity="start"/>
+            <TextView
+                android:layout_width="200dp"
+                android:id="@+id/val"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_toRightOf="@id/attr"
+                android:textSize="9sp"
+                android:textColor="#ECEFF1"
+                android:paddingStart="5dp"
+                android:gravity="fill"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

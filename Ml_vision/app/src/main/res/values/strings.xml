@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ARK</string>
+    <string name="facebook_app_id">244964349822501</string>
+    <string name="fb_login_protocol_scheme">fb244964349822501</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+</resources>
