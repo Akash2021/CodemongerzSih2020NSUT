@@ -28,16 +28,20 @@ For Windows:
 pip install -r requirements.txt
 ```
  * #### Now run app.py from the same directory you will see a screen like this if your server is running properly.
- ![flask_running](./doc/flask_running.png)
+ ![flask_running](./doc/flask_running.png) 
  * #### Your server is successfully running now. Now install the android application in your mobile and run it you will see prompted to a login page.
- ![Login](./doc/Login.jpg)
+ <img src="./doc/Login.jpg" width="248">
  
   To sucessfully login use these credentials
   Username:admin
   Password:admin
  
 * #### After logging in you will a screen like this
-![htr](./doc/mainscreen.jpg)
+
+<img src="./doc/mainscreen.jpg" width="248">
+
 * #### Click on Upload Fir and Upload your image.
-![htr](./doc/result.jpg)
+
+<img src="./doc/result.jpg" width="248">
+
 * #### You will get the feature extracted from the image shown to you which you can Email or WhatsApp with the inbuilt feature of the application.
